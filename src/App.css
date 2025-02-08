@@ -73,7 +73,7 @@ nav {
     font-size: 20px;
 }
 
-#signin-btn, #register-btn {
+#register-btn {
     width: 60px;
     height: 27px;
     border-radius: 5px;

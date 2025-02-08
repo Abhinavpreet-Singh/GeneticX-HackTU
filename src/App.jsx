@@ -6,7 +6,7 @@ const App = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [navbarColor, setNavbarColor] = useState('transparent');
 
-
+  
   const handleMenuToggle = () => {
     setMenuActive(prevState => !prevState);
   };
@@ -41,7 +41,7 @@ const App = () => {
               <li><a href="#services-container">Services</a></li>
               <li><a href="#meetOurTeam">Team</a></li>
               <li><a href="#questions-container">FAQs</a></li>
-                <li><a href='./login.html'><button id="register-btn">Register</button></a></li>
+              <li><a href='./login.html'><button id="register-btn">Register</button></a></li>
 
             </ul>
           </div>
